@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'HSBKeyboardNotification'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HSBKeyboardNotification.'
+  s.summary          = 'HSBKeyboardNotification support keyboard notification delegate'
+  s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+HSBKeyboardNotification support keyboard notification delegate
                        DESC
 
   s.homepage         = 'https://github.com/Red/HSBKeyboardNotification'
@@ -30,13 +31,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HSBKeyboardNotification/Classes/**/*'
+  s.source_files = 'HSBKeyboardNotification/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'HSBKeyboardNotification' => ['HSBKeyboardNotification/Assets/*.png']
   # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.frameworks = 'UIKit'
 end

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HSBKeyboardNotification_Example' do
+  pod 'HSBKeyboardNotification', :path => '../'
+
+  target 'HSBKeyboardNotification_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

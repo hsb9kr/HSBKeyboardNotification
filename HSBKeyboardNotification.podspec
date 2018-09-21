@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HSBKeyboardNotification'
   s.version          = '0.1.0'
-  s.summary          = 'HSBKeyboardNotification support keyboard notification delegate'
+  s.summary          = 'HSBKeyboardNotification support keyboard notification delegate.'
   s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
@@ -19,14 +19,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-HSBKeyboardNotification support keyboard notification delegate
+HSBKeyboardNotification support keyboard notification delegate.
+Keyboard notification: willShow, willHide, willChange
                        DESC
 
-  s.homepage         = 'https://github.com/Red/HSBKeyboardNotification'
+  s.homepage         = 'https://github.com/hsb9kr/HSBKeyboardNotification'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Red' => 'hsb9kr@gmail.com' }
-  s.source           = { :git => 'https://github.com/Red/HSBKeyboardNotification.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hsb9kr/HSBKeyboardNotification.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

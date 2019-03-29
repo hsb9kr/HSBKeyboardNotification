@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSBKeyboardNotification'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'HSBKeyboardNotification support keyboard notification delegate.'
-  s.swift_version    = '4.2'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

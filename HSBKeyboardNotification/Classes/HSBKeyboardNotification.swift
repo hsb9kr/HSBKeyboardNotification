@@ -15,7 +15,7 @@ public protocol HSBKeyboardNotificationDelegate {
 
 public class HSBKeyboardNotification: NSObject {
 	static public let shared = HSBKeyboardNotification()
-	open var delegate: HSBKeyboardNotificationDelegate?
+	open weak var delegate: HSBKeyboardNotificationDelegate?
 	open var isKeyboardHidden = true
 	
 	override init() {

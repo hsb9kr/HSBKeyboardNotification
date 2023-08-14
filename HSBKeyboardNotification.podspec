@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSBKeyboardNotification'
-  s.version          = '0.0.3'
+  s.version          = '1.0.0'
   s.summary          = 'HSBKeyboardNotification support keyboard notification delegate.'
   s.swift_version    = '5'
 
@@ -30,7 +30,7 @@ Keyboard notification: willShow, willHide, willChange
   s.source           = { :git => 'https://github.com/hsb9kr/HSBKeyboardNotification.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'HSBKeyboardNotification/Classes/*.swift'
   

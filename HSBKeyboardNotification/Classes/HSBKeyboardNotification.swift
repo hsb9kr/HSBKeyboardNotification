@@ -7,7 +7,7 @@
 
 import UIKit
 
-public protocol HSBKeyboardNotificationDelegate {
+public protocol HSBKeyboardNotificationDelegate: AnyObject {
 	func hsbKeyboardNotification(show keyboardSize: CGSize)
 	func hsbKeyboardNotification(hide keyboardSize: CGSize)
 	func hsbKeyboardNotification(change keyboardSize: CGSize)
